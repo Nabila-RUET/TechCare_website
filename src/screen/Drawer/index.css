@@ -1,0 +1,27 @@
+.css-sourceMap-modules-importLoaders-1-localIdentName-ReactDrawer__drawer___2r5VH-sass {
+  background-color:white !important;
+  width: 450px !important
+  }
+  .drawerLogo{
+   width: 45px;
+   height:40px;
+   margin-right:300px;
+   margin-left:25px
+   
+  }
+  .drawerContent{
+      margin-top: 50px;
+      display:flex;
+      justify-content: flex-start;
+      margin-left:25px;
+      }
+  .lineSeparator{
+      width:357px;
+      height:2px;
+      background-color:lightgray;
+      margin-left:25px;
+      margin-top:35px
+  
+  
+      }
+  
