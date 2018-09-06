@@ -1,0 +1,33 @@
+.text{
+    font: inherit;
+    vertical-align: baseline;
+    color:white;
+    font-size: 60px;
+    font-weight:bold;
+    margin-top: 200px;
+    text-align: center;
+    text-transform: uppercase
+    
+}
+
+.txt{
+    font: inherit;
+    vertical-align: baseline;
+    color:white;
+    font-size: 18px;
+    text-align: center;
+}
+.roundBtn{
+   width:40px;
+   height:40px;
+    display: block;
+    margin: auto;
+    padding: 0.6em 0.8em;
+    position: relative;
+    border-radius: 50%;
+    text-transform: uppercase;
+    display:flex;
+    justify-content:center;
+    margin-bottom:400px
+
+}

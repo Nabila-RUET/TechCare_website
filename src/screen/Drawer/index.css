@@ -1,27 +1,48 @@
-.css-sourceMap-modules-importLoaders-1-localIdentName-ReactDrawer__drawer___2r5VH-sass {
-  background-color:white !important;
-  width: 450px !important
-  }
   .drawerLogo{
    width: 45px;
    height:40px;
-   margin-right:300px;
-   margin-left:25px
-   
+   margin-right:280px;
+   margin-left:15px;
+   justify-content: flex-start
   }
   .drawerContent{
-      margin-top: 50px;
-      display:flex;
-      justify-content: flex-start;
+     
       margin-left:25px;
+      
       }
   .lineSeparator{
       width:357px;
       height:2px;
       background-color:lightgray;
-      margin-left:25px;
+      /* margin-left:18px; */
       margin-top:35px
-  
-  
-      }
+  }
+  .lineSeparatorr{
+    width:357px;
+    height:2px;
+    background-color:#21a64a;
+    /* margin-left:18px; */
+    margin-top:35px
+}
+  .list{
+    list-style: none;
+    line-height:200%;
+    padding-left:0px;
+    margin-top:20px;
+    font-weight:bold
+  }
+  .button{
+    min-width: 100px;
+    max-width: 300px;
+    display: block;
+    margin-right: 80px;
+    border: none;
+    font-size: 14px;
+    font-weight: 500px;
+    font-family: 'Halis-black';
+    border: 2px solid #21a64a;
+    text-transform: uppercase;
+    margin-top: 25px
+
+  }
   

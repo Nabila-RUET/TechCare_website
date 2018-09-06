@@ -1,0 +1,15 @@
+.button{
+    min-width: 100px;
+    max-width: 300px;
+    display: block;
+    margin: auto;
+    padding: 0.6em 0.8em;
+    vertical-align: middle;
+    font-size: 14px;
+    font-weight: 500px;
+    position: relative;
+    text-transform: uppercase;
+    margin-top: 25px;
+    margin-bottom: 25px;
+
+  }
