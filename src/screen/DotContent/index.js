@@ -5,7 +5,7 @@ class DotContent extends Component {
     render() {
         return (
 
-            <Container>
+            <Container style={{margin:"0px"}}>
                 {this.Rows( <img className="img" alt="txt"src="https://www.techcarebd.com/wp-content/themes/techcare/img/dots.png"/>)}
                 {this.Rows( <p className="msg"> {this.props.message}</p>)}
             </Container>
@@ -16,8 +16,8 @@ class DotContent extends Component {
     Rows=(element)=>{
       return(
         <Row>
-        <Col sm="2"></Col>
-        <Col sm="9" style={{ display: "flex", justifyContent: "center" }}>
+        <Col sm="1"></Col>
+        <Col sm="10" style={{ display: "flex", justifyContent: "center" }}>
            {element}
         </Col>
         <Col sm="1"></Col>

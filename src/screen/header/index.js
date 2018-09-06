@@ -48,7 +48,8 @@ class Header extends Component {
         //    console.log('click : ',this.state.open)
         return (
             <Container fluid className="app-header" 
-                style={{ position: "fixed", backgroundColor: this.state.scrollingLock ? "white" : "transparent" }} >
+                style={{ position: "fixed", backgroundColor: this.state.scrollingLock ? "white" : "transparent",
+                boxShadow: this.state.scrollingLock ? "0px 3px 10px -7px rgba(0,0,0,0.56)": "none"}} >
             <Col sm="3" >
                 <img className="logo" src={this.state.scrollingLock?"https://www.techcarebd.com/wp-content/themes/techcare/img/logo-color.svg" :"https://www.techcarebd.com/wp-content/themes/techcare/img/logo-white.svg"}/>
             </Col>
